@@ -107,6 +107,9 @@ a:hover{
      list-style: none;
      padding: 5px;
 }
+.main-footer .box-1{
+    padding: 1rem;
+}
 .wrapper .descrip{
    line-height: 5rem;
 }
