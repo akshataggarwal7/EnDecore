@@ -1,0 +1,113 @@
+*{
+    line-height: 1.6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ;
+    padding-bottom: 5px;
+}
+a:hover{
+    border-bottom: 1px black solid;
+}
+.button{
+    color: whitesmoke;
+    background-color: black;
+    padding: 15px 25px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s;
+}
+.button:hover{
+    background: #7e9a9a;
+    border: none;
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 1.7rem;
+}
+.main-header .site-name{
+    flex: 1;
+    margin-left: 1.5rem;
+}
+.main-nav li{
+    display: inline;
+    flex: 1;
+    justify-content: end;
+    padding: 1rem;
+}
+.showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    padding: 1.2rem;
+    margin-top: 4rem;
+}
+.showcase .main-para{
+       font-size: 2rem;
+       line-height: 3rem;
+       font-weight: 100;
+}
+.starting-image img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 2rem;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+    grid-gap: 10px;
+    padding: 2rem;
+    margin-bottom: 1.4rem;
+}
+.wrapper .text{
+    padding: 2rem;
+}
+.wrapper .link{
+   align-self: center;
+   margin-bottom: 20px;
+}
+.resi-design img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 2rem;   
+}
+.comm-design img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-bottom: 2rem;
+}
+.main-footer{
+    background:  #dae0e0;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    margin: 0;
+    padding: 16px;
+    border: 0;
+}
+.main-footer li{
+     list-style: none;
+     padding: 5px;
+}
+.wrapper .descrip{
+   line-height: 5rem;
+}
+
