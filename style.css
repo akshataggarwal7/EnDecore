@@ -18,7 +18,7 @@ a:hover{
     transform: scale(.5,.5);
 }
 .button{
-    color: whitesmoke;
+    color: white;
     background-color: black;
     padding: 15px 25px;
     border: none;
